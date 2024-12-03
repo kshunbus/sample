@@ -1,0 +1,37 @@
+.chatInput {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  background-color: #474b53;
+  border-radius: 5px;
+  color: lightgray;
+
+  form {
+    flex-grow: 1;
+
+    input {
+      padding: 15px;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: large;
+      width: 100%;
+    }
+    .chatInputButton {
+      display: none;
+    }
+  }
+
+  .chatInputIcons {
+    .MuiSvgIcon-root {
+      cursor: pointer;
+      padding: 5px;
+    }
+  }
+}
